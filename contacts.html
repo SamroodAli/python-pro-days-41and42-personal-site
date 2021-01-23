@@ -10,7 +10,7 @@
 
 <body>
     <section>
-        <img src="images/samrood-circle.png" alt="" width="15%">
+        <img src="images/samrood-circle.png" alt="profile photo" width="15%">
         <em>
             <h1>Samrood Ali</h1>
         </em>
@@ -24,9 +24,23 @@
             <li>Happy</li>
         </ul>
     </section>
+    <section>
+        <h2>Contact me</h2>
+        <form action="mailto:your email here.com" method="POST">
+            <label for="name">Enter your name:</label>
+            <input type="text" id="name" name="yourName" required>
+            <br>
+            <label for="email">Enter your email:</label>
+            <input type="email" id="email" name="yourEmail" required>
+            <br>
+            <label for="textarea">Your message:</label><br>
+            <textarea name="yourMessage" id="textarea" cols="20" rows="5"></textarea>
+            <input type="submit">
+        </form>
+    </section>
     <hr>
     <footer>
-        <a href="index.html" target="_blank">Home page</a>
+        <a href="index.html">Home page</a>
     </footer>
 </body>
 
