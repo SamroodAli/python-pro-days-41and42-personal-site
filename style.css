@@ -9,3 +9,9 @@ hr {
 	border-width: 5px;
 	border-color: grey;
 }
+
+h1,
+h2,
+h3 {
+	color: #66bfbf;
+}
